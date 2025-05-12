@@ -2,56 +2,55 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>아워폼 | 누구나 자유롭게</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>아워폼 OurForm</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+      background-color: #f5f0fa;
       margin: 0;
       padding: 0;
-      color: #333;
     }
-    header {
-      background-color: #4CAF50;
-      padding: 1.5rem;
-      color: white;
+    header, footer {
       text-align: center;
+      padding: 1rem;
+      background-color: #ddd;
     }
     main {
-      padding: 2rem;
       text-align: center;
+      padding: 2rem;
     }
-    .button {
+    a.button {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.8rem 1.5rem;
-      background-color: #4CAF50;
+      padding: 1rem 2rem;
+      margin-top: 2rem;
+      background-color: #6c63ff;
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
     }
-    footer {
-      margin-top: 3rem;
-      padding: 1rem;
-      background-color: #eee;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
+    a.button:hover {
+      background-color: #4b47cc;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>아워폼 OurForm</h1>
-    <p>회원가입만 하면 누구나 폼을 다운로드 할 수 있어요!</p>
+    <p>회원가입 없이 누구나 폼을 만들 수 있어요!</p>
   </header>
+
   <main>
-    <h2>아워폼 베타버전 시작!</h2>
-    <p>현재 개발 중이며, 더 많은 기능이 곧 추가됩니다.</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfds-DWnbNUV7PMPFjUam2fSagK0RV-smnY5hVgn1dxu3Q-Mg/viewform" class="button">폼 만들러 가기</a>
+    <h2>베타버전 시작!</h2>
+    <p>지금 바로 폼 만들러 가기 👇</p>
+    
+    <!-- ✅ 여기에 viewform 링크를 정확히 붙입니다 -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfds-DWnbNUV7PMPFjUam2fSagK0RV-smnY5hVgn1dxu3Q-Mg/viewform" class="button" target="_blank">
+      폼 만들러 가기
+    </a>
   </main>
+
   <footer>
     &copy; 2025 아워폼. 모든 권리 보유.
   </footer>
